@@ -38,14 +38,15 @@ class ContaBancaria:
             print(f"Saldo atual: R$ {self.saldo:.2f}")
 
 
-# Testando o código
-conta = ContaBancaria()
+if __name__ == "__main__":
+    # Testando o código
+    conta = ContaBancaria()
 
-conta.deposito(1000)
-conta.deposito(500.45)
-conta.saque(200)
-conta.saque(700)
-conta.saque(300)
-conta.saque(400)
+    conta.deposito(1000)
+    conta.deposito(500.45)
+    conta.saque(200)
+    conta.saque(700)
+    conta.saque(300)
+    conta.saque(400)
 
-conta.extrato()
+    conta.extrato()
