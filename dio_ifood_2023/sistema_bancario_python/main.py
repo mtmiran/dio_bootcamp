@@ -1,4 +1,5 @@
 from conta_bancaria import ContaBancaria
+from usuario import Usuario
 
 menu = """
     [ D ] Depositar
@@ -9,7 +10,8 @@ menu = """
 
 
 # criando a conta
-conta = ContaBancaria()
+usuario = Usuario("João da Silva", "123.456.789-00")
+
 
 # inicio
 while True:
@@ -17,14 +19,14 @@ while True:
 
     if opcao == "D":
         valor = float(input("Valor do depósito: R$"))
-        conta.deposito(valor)
+        usuario.deposito(valor)
 
     elif opcao == "S":
         valor = float(input("Valor do saque: R$"))
-        conta.saque(valor)
+        usuario.saque(valor)
 
     elif opcao == "E":
-        conta.extrato()
+        usuario.extrato()
 
     elif opcao == "Q":
         break
