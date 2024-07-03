@@ -1,6 +1,6 @@
 # BOOTCAMP DIO - Sysvision
 
-## [Desafio 01 - Analisando Dados com SQL Analytics e Power BI](https://github.com/mtmiran/dio_bootcamp/desafios/01_analise_dados_finance/desafio01_sample_financial.pbix)
+## [Desafio 01 - Analisando Dados com SQL Analytics e Power BI](https://github.com/mtmiran/dio_bootcamp/desafios/01_analise_dados_finance/)
 
 ### Instruções para entrega
 
